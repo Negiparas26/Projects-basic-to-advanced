@@ -9,7 +9,7 @@
 
 
 
-import '../index.css';
+import './contact.css';
 import { useState } from 'react';
 
 const Form = () => {

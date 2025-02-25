@@ -1,42 +1,72 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the form on the page properly */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
+  min-height: 100vh; /* Changed from height to min-height */
+  padding: 20px; /* Added padding to prevent cutting */
 }
+
+/* Form container */
 .container {
   background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  width: 350px; /* Fixed width */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 400px;
   text-align: center;
 }
+
+/* Form heading */
 .container h2 {
   margin-bottom: 15px;
   color: #333;
+  font-size: 22px;
 }
-input {
-  width: 90%;
-  padding: 10px;
-  margin: 8px 0;
+
+/* Proper spacing for input fields */
+.container input {
+  width: 100%; /* Ensuring full width */
+  padding: 12px;
+  margin-bottom: 15px; /* Increased spacing */
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 14px;
+  outline: none;
+  transition: border 0.3s;
 }
-button {
+
+/* Input focus effect */
+.container input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Submit button styling */
+.container button {
   background: #007bff;
   color: white;
-  padding: 10px;
+  padding: 12px;
   border: none;
   width: 100%;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
 }
-button:hover {
+
+/* Button hover effect */
+.container button:hover {
   background: #0056b3;
+  transform: translateY(-2px);
 }
