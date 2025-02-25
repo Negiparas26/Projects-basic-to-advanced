@@ -1,14 +1,21 @@
 import Form from './component/form';
+import Contact from './component/Contact';
 
-import './App.css'
+
 
 function App() {
  // const [count, setCount] = useState(0)
 
   return (
     <>
-   <Form />
-
+    <section>
+    <Form />
+    </section>
+   
+<section>
+<Contact/>
+</section>
+   
 
     </>
   )
