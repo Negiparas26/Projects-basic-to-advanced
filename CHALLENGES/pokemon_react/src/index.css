@@ -46,6 +46,7 @@ span {
 .container {
   max-width: 152rem;
   margin: auto;
+  padding: 0px 119%;
 }
 
 .grid-three-cols {
