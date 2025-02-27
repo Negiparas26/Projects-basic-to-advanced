@@ -7,7 +7,7 @@ It fetches **50 Pokémon** from the API and displays their names and images dyna
 
 ## 🚀 Live Demo
 🔗 **Check out the deployed app here:**  
-👉 [View on Vercel](https://[YOUR_VERCEL_DEPLOYMENT_LINK])
+👉 [View on Vercel](https://pokemoncn.netlify.app/)
 
 ## 📸 Project Screenshot
 ![Pokémon App Screenshot 1](https://drive.google.com/uc?export=view&id=1t47EwHGtLL2a4RN1jbw3XplZ-45iO2rY)
