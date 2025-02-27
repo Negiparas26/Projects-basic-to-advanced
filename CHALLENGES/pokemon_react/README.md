@@ -1,3 +1,41 @@
+
+
+# 🐉 Pokémon Fetch App
+
+This project is a simple **Pokémon list application** built using **React.js** and the **PokéAPI**.  
+It fetches **50 Pokémon** from the API and displays their names and images dynamically.
+
+## 🚀 Live Demo
+🔗 **Check out the deployed app here:**  
+👉 [View on Vercel](https://[YOUR_VERCEL_DEPLOYMENT_LINK])
+
+## 📸 Project Screenshot
+![Pokémon App](https://drive.google.com/file/d/1t47EwHGtLL2a4RN1jbw3XplZ-45iO2rY/view?usp=drive_link)
+(https://drive.google.com/file/d/1dRda8p97oXIobCjWdQ8M9ejV1j6prsBY/view?usp=drive_link) 
+
+
+---
+
+## 📌 Features
+✅ Fetches Pokémon names from [PokéAPI](https://pokeapi.co/api/v2/pokemon?limit=124)  
+✅ Displays **50 Pokémon** with **images**  
+✅ Dynamically extracts Pokémon IDs for fetching images  
+✅ Built using **React.js** with **useEffect & useState** hooks  
+
+---
+
+## 🛠️ Tech Stack
+- ⚛️ **React.js** (Frontend framework)
+- 🎨 **CSS** (For styling)
+- 🌐 **PokéAPI** (Fetching Pokémon data)
+- 🚀 **Vercel** (For deployment)
+
+---
+
+## 📂 Folder Structure
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
