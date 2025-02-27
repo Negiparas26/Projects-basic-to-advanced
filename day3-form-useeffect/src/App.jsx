@@ -19,6 +19,21 @@ function App() {
     return () => clearInterval(interval);                                       //                  |
    
   }, []);  
+
+
+  // Correct Implementation (useEffect + Cleanup)             Without Cleanup (clearInterval missing)
+ 
+  // | Component Mounts 🎬 |                                        | Component Mounts 🎬 |
+  // | useEffect Runs 🏃‍♂️ |                                          | useEffect Runs 🏃‍♂️ |
+  // | setInterval Starts ⏳ |                                      | setInterval Starts ⏳ |
+  // | count++ every second ⏳ |                                    | count++ every second ⏳ |
+  // | UI Updates 🎨 |                                              | Component Re-renders 🔄 |
+  // | Component Unmounts ❌ |                                      | setInterval Starts AGAIN ⏳⏳⏳ |
+  // | Cleanup function clears setInterval 🚀 |                     | MULTIPLE INTERVALS Running (Bug!) ⚠️ |             
+  //                                                                 | Memory Leak Occurs 🚨 |  
+
+ 
+
   useEffect(()=>{
     const option =setInterval(()=>{
       setCount((prev)=>prev+1);
@@ -27,7 +42,8 @@ function App() {
      return ()=>clearInterval(option); 
   },[])
  
- console.log(count);
+  
+//  console.log(count);
   return (
     <>
       <div>
