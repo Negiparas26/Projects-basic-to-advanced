@@ -32,8 +32,8 @@ function App() {
   // | Cleanup function clears setInterval 🚀 |                     | MULTIPLE INTERVALS Running (Bug!) ⚠️ |             
   //                                                                 | Memory Leak Occurs 🚨 |  
 
- 
 
+  
   useEffect(()=>{
     const option =setInterval(()=>{
       setCount((prev)=>prev+1);
@@ -42,7 +42,7 @@ function App() {
      return ()=>clearInterval(option); 
   },[])
  
-  
+
 //  console.log(count);
   return (
     <>
