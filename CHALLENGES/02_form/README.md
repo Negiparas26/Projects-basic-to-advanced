@@ -9,8 +9,8 @@ It includes **basic validation**, **error handling**, and **form submission** wi
 ---
 
 ## 📸 Project Screenshot  
-![Form App](https://drive.google.com/file/d/1DmT92ARWwUrjfTBShbn3CViWxuQQz9e-/view?usp=drive_link)
-![Form App](https://drive.google.com/file/d/1XIj95Q23Y9Hui4mV6iAWKHSNITkU6Ltp/view?usp=drive_link)
+![Form App](https://drive.google.com/uc?export=view&id=1DmT92ARWwUrjfTBShbn3CViWxuQQz9e-)
+![Form App](https://drive.google.com/uc?export=view&id=1XIj95Q23Y9Hui4mV6iAWKHSNITkU6Ltp)
 ---
 
 ## 📌 Features  
