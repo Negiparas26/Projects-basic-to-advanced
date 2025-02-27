@@ -10,8 +10,9 @@ It fetches **50 Pokémon** from the API and displays their names and images dyna
 👉 [View on Vercel](https://[YOUR_VERCEL_DEPLOYMENT_LINK])
 
 ## 📸 Project Screenshot
-![Pokémon App](https://drive.google.com/file/d/1t47EwHGtLL2a4RN1jbw3XplZ-45iO2rY/view?usp=drive_link)
-(https://drive.google.com/file/d/1dRda8p97oXIobCjWdQ8M9ejV1j6prsBY/view?usp=drive_link) 
+![Pokémon App Screenshot 1](https://drive.google.com/uc?export=view&id=1t47EwHGtLL2a4RN1jbw3XplZ-45iO2rY)
+
+![Pokémon App Screenshot 2](https://drive.google.com/uc?export=view&id=1dRda8p97oXIobCjWdQ8M9ejV1j6prsBY)
 
 
 ---
