@@ -1,13 +1,20 @@
 
 import './App.css'
-import ForwardRef from './ForwardRef'
+import Dashboard from './Dashboard'
+import StoreContext from './storeContext'
 
 function App() {
  
   return (
-    <>
-     <ForwardRef />
-    </>
+    <div>
+ <StoreContext>
+     <Dashboard/>
+
+   </StoreContext>
+
+
+    </div>
+  
   )
 }
 
