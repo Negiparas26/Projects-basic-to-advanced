@@ -1,3 +1,43 @@
+# ✅ To-Do List App
+
+This is a **simple and responsive To-Do List application** built with **React.js**.  
+It allows users to **add, edit, complete, and delete tasks** efficiently.
+
+## 🚀 Live Demo
+🔗 **Check out the deployed app here:**  
+👉 [View on Netlify](https://minelisttodo.netlify.app/)
+
+## 📸 Project Screenshot
+![To-Do List App Screenshot](https://drive.google.com/uc?export=view&id=1Ty6MnRkjr-hbEN7XUUWwKDgxgV1llkh0)
+
+---
+
+## 📌 Features
+✅ Add new tasks  
+✅ Mark tasks as completed  
+✅ Edit existing tasks  
+✅ Delete tasks  
+✅ Responsive and user-friendly UI  
+✅ Supports light and dark mode  
+
+---
+
+## 🛠️ Tech Stack
+- ⚛️ **React.js** (Frontend framework)
+- 🎨 **CSS** (For styling)
+- 🏗️ **React Hooks** (`useState`, `useEffect`)
+- 🌍 **Netlify** (For deployment)
+
+---
+
+## 📂 Folder Structure
+
+/todolist-app ├── /public ├── /src │ ├── /components │ │ ├── TaskForm.jsx │ │ ├── TaskList.jsx │ │ ├── TaskItem.jsx │ ├── /context │ │ ├── TaskContext.jsx │ │ ├── taskReducer.js │ ├── App.jsx │ ├── index.jsx ├── package.json ├── README.md
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
