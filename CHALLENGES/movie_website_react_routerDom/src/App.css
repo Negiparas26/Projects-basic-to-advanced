@@ -197,6 +197,8 @@ textarea:focus-visible {
   display: flex;
   gap: 3.2rem;
 }
+
+
 .section-navbar {
   width: 100%;
   box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
