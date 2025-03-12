@@ -46,7 +46,7 @@ export const Footer = () => {
         </div>
         <div className="f-design">
           <div className="f-design-txt">
-            <p>Design and Code by Thapa Technical</p>
+            <p>Design and Code by PARAS NEGI</p>
           </div>
         </div>
       </footer>
