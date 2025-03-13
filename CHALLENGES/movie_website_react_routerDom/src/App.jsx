@@ -5,10 +5,10 @@ import  {Home}  from "./pages/Home";
 import  {About}  from "./pages/About";
 import  {Movie}  from "./pages/Movie";
 import  {Contact, contactData } from "./pages/Contact";
-import AppLayout from "./components/Layout/AppLayout";
+import AppLayout from "./components/layout/AppLayout";
 import  {ErrorPage}  from "./pages/ErrorPage";
 import  {MovieDetails}  from "./components/UI/MovieDetails";
-import { getMoviesData } from "./api/GetAPIData";
+import { getMoviesData } from "./api/GetApiData";
 import { getMovieDetails } from "./api/GetMovieDetails";
 
 function App() {
