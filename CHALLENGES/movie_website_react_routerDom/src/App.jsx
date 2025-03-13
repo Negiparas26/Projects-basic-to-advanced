@@ -5,7 +5,7 @@ import  {Home}  from "./pages/Home";
 import  {About}  from "./pages/About";
 import  {Movie}  from "./pages/Movie";
 import  {Contact, contactData } from "./pages/Contact";
-import AppLayout from "./components/layout/AppLayout";
+import AppLayout from "./components/Layout/AppLayout";
 import  {ErrorPage}  from "./pages/ErrorPage";
 import  {MovieDetails}  from "./components/UI/MovieDetails";
 import { getMoviesData } from "./api/GetApiData";
